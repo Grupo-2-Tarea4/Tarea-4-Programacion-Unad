@@ -1,21 +1,4 @@
 """
-main.py
-Punto de entrada del sistema Software FJ.
-Simula más de 10 operaciones completas (válidas e inválidas) demostrando:
-  - POO: abstracción, herencia, polimorfismo, encapsulación
-  - Manejo avanzado de excepciones personalizadas
-  - Registro de eventos en logs/logs.txt
-"""
-
-import logger
-from cliente import Cliente, GestorClientes
-from servicio import ReservaSala, AlquilerEquipo, AsesoriaEspecializada, GestorServicios
-from reserva import Reserva, GestorReservas, EstadoReserva
-from excepciones import (
-    SoftwareFJError,
-    DatoClienteInvalidoError,
-    ClienteYaExisteError,
-    ParametroServicioInvalidoError,
     ServicioNoDisponibleError,
     ReservaYaCanceladaError,
     ReservaYaConfirmadaError,
