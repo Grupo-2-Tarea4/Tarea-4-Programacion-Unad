@@ -572,3 +572,167 @@
 
 [2026-05-12 12:35:02] [INFO] Sistema Software FJ — Ejecución completada sin interrupciones.
 
+[2026-05-12 12:43:25] [INFO] ══════════════════════════════════════════════
+
+[2026-05-12 12:43:25] [INFO]   Sistema Software FJ — Inicio de ejecución   
+
+[2026-05-12 12:43:25] [INFO] ══════════════════════════════════════════════
+
+[2026-05-12 12:43:25] [INFO] Cliente creado: 1001 - Ana Torres
+
+[2026-05-12 12:43:25] [INFO] Cliente registrado exitosamente: 1001
+
+[2026-05-12 12:43:25] [INFO] Cliente creado: 1002 - Luis Pérez
+
+[2026-05-12 12:43:25] [INFO] Cliente registrado exitosamente: 1002
+
+[2026-05-12 12:43:25] [INFO] Cliente creado: 1001 - Ana Duplicada
+
+[2026-05-12 12:43:25] [ERROR] Intento de registro duplicado: 1001
+
+[2026-05-12 12:43:25] [INFO] Servicio agregado: S01 - Sala Innovación
+
+[2026-05-12 12:43:25] [INFO] Servicio agregado: E01 - Portátil HP ProBook
+
+[2026-05-12 12:43:25] [INFO] Servicio agregado: A01 - Consultoría Legal Empresarial
+
+[2026-05-12 12:43:25] [INFO] Reserva creada: 6334E685 | Cliente: 1001 | Servicio: S01 | Duración: 3.0
+
+[2026-05-12 12:43:25] [INFO] Reserva registrada en gestor: 6334E685
+
+[2026-05-12 12:43:25] [INFO] Costo calculado ReservaSala 'Sala Innovación': $192,780.00 (3.0h, desc=10%, IVA=True)
+
+[2026-05-12 12:43:25] [INFO] Reserva CONFIRMADA: 6334E685 | Costo: $192,780.00
+
+[2026-05-12 12:43:25] [INFO] Intento de confirmación finalizado para reserva 6334E685 | Estado actual: CONFIRMADA
+
+[2026-05-12 12:43:25] [INFO] Reserva 6334E685 PROCESADA exitosamente. Servicio: Sala Innovación | Cliente: Ana Torres | Costo: $192,780.00
+
+[2026-05-12 12:43:25] [INFO] Intento de procesamiento finalizado para reserva 6334E685
+
+[2026-05-12 12:43:25] [INFO] Reserva creada: DC1E268A | Cliente: 1002 | Servicio: E01 | Duración: 2.0
+
+[2026-05-12 12:43:25] [INFO] Reserva registrada en gestor: DC1E268A
+
+[2026-05-12 12:43:25] [INFO] Costo calculado AlquilerEquipo 'Portátil HP ProBook': $214,200.00 (2.0d, desc=0%, IVA=True)
+
+[2026-05-12 12:43:25] [INFO] Reserva CONFIRMADA: DC1E268A | Costo: $214,200.00
+
+[2026-05-12 12:43:25] [INFO] Intento de confirmación finalizado para reserva DC1E268A | Estado actual: CONFIRMADA
+
+[2026-05-12 12:43:25] [INFO] Reserva CANCELADA: DC1E268A
+
+[2026-05-12 12:43:25] [INFO] Intento de cancelación finalizado para reserva DC1E268A
+
+[2026-05-12 12:43:25] [INFO] Reserva creada: 3C187807 | Cliente: 1001 | Servicio: A01 | Duración: 2.5
+
+[2026-05-12 12:43:25] [INFO] Reserva registrada en gestor: 3C187807
+
+[2026-05-12 12:43:25] [INFO] Costo calculado Asesoria 'Consultoría Legal Empresarial': $487,528.12 (2.5h, desc=5%, IVA=True)
+
+[2026-05-12 12:43:25] [INFO] Reserva CONFIRMADA: 3C187807 | Costo: $487,528.12
+
+[2026-05-12 12:43:25] [INFO] Intento de confirmación finalizado para reserva 3C187807 | Estado actual: CONFIRMADA
+
+[2026-05-12 12:43:25] [ERROR] No se pudo confirmar reserva 3C187807: [ERR_RESERVA] La reserva '3C187807' ya se encuentra confirmada.
+
+[2026-05-12 12:43:25] [INFO] Intento de confirmación finalizado para reserva 3C187807 | Estado actual: CONFIRMADA
+
+[2026-05-12 12:43:25] [WARNING] Intento de cancelar reserva ya cancelada: DC1E268A
+
+[2026-05-12 12:43:25] [INFO] Intento de cancelación finalizado para reserva DC1E268A
+
+[2026-05-12 12:43:25] [ERROR] Error al crear reserva.
+
+[2026-05-12 12:43:25] [INFO] Reserva creada: A1FE5746 | Cliente: 1001 | Servicio: S01 | Duración: 1.0
+
+[2026-05-12 12:43:25] [INFO] Reserva registrada en gestor: A1FE5746
+
+[2026-05-12 12:43:25] [ERROR] No se pudo confirmar reserva A1FE5746: [ERR_SERVICIO] El servicio 'Sala Innovación' no está disponible en este momento.
+
+[2026-05-12 12:43:25] [INFO] Intento de confirmación finalizado para reserva A1FE5746 | Estado actual: PENDIENTE
+
+[2026-05-12 12:43:25] [INFO] Sistema Software FJ — Ejecución completada sin interrupciones.
+
+[2026-05-12 12:43:28] [INFO] ══════════════════════════════════════════════
+
+[2026-05-12 12:43:28] [INFO]   Sistema Software FJ — Inicio de ejecución   
+
+[2026-05-12 12:43:28] [INFO] ══════════════════════════════════════════════
+
+[2026-05-12 12:43:28] [INFO] Cliente creado: 1001 - Ana Torres
+
+[2026-05-12 12:43:28] [INFO] Cliente registrado exitosamente: 1001
+
+[2026-05-12 12:43:28] [INFO] Cliente creado: 1002 - Luis Pérez
+
+[2026-05-12 12:43:28] [INFO] Cliente registrado exitosamente: 1002
+
+[2026-05-12 12:43:28] [INFO] Cliente creado: 1001 - Ana Duplicada
+
+[2026-05-12 12:43:28] [ERROR] Intento de registro duplicado: 1001
+
+[2026-05-12 12:43:28] [INFO] Servicio agregado: S01 - Sala Innovación
+
+[2026-05-12 12:43:28] [INFO] Servicio agregado: E01 - Portátil HP ProBook
+
+[2026-05-12 12:43:28] [INFO] Servicio agregado: A01 - Consultoría Legal Empresarial
+
+[2026-05-12 12:43:28] [INFO] Reserva creada: 75A5E125 | Cliente: 1001 | Servicio: S01 | Duración: 3.0
+
+[2026-05-12 12:43:28] [INFO] Reserva registrada en gestor: 75A5E125
+
+[2026-05-12 12:43:28] [INFO] Costo calculado ReservaSala 'Sala Innovación': $192,780.00 (3.0h, desc=10%, IVA=True)
+
+[2026-05-12 12:43:28] [INFO] Reserva CONFIRMADA: 75A5E125 | Costo: $192,780.00
+
+[2026-05-12 12:43:28] [INFO] Intento de confirmación finalizado para reserva 75A5E125 | Estado actual: CONFIRMADA
+
+[2026-05-12 12:43:28] [INFO] Reserva 75A5E125 PROCESADA exitosamente. Servicio: Sala Innovación | Cliente: Ana Torres | Costo: $192,780.00
+
+[2026-05-12 12:43:28] [INFO] Intento de procesamiento finalizado para reserva 75A5E125
+
+[2026-05-12 12:43:28] [INFO] Reserva creada: 166F1910 | Cliente: 1002 | Servicio: E01 | Duración: 2.0
+
+[2026-05-12 12:43:28] [INFO] Reserva registrada en gestor: 166F1910
+
+[2026-05-12 12:43:28] [INFO] Costo calculado AlquilerEquipo 'Portátil HP ProBook': $214,200.00 (2.0d, desc=0%, IVA=True)
+
+[2026-05-12 12:43:28] [INFO] Reserva CONFIRMADA: 166F1910 | Costo: $214,200.00
+
+[2026-05-12 12:43:28] [INFO] Intento de confirmación finalizado para reserva 166F1910 | Estado actual: CONFIRMADA
+
+[2026-05-12 12:43:28] [INFO] Reserva CANCELADA: 166F1910
+
+[2026-05-12 12:43:28] [INFO] Intento de cancelación finalizado para reserva 166F1910
+
+[2026-05-12 12:43:28] [INFO] Reserva creada: 9E87103E | Cliente: 1001 | Servicio: A01 | Duración: 2.5
+
+[2026-05-12 12:43:28] [INFO] Reserva registrada en gestor: 9E87103E
+
+[2026-05-12 12:43:28] [INFO] Costo calculado Asesoria 'Consultoría Legal Empresarial': $487,528.12 (2.5h, desc=5%, IVA=True)
+
+[2026-05-12 12:43:28] [INFO] Reserva CONFIRMADA: 9E87103E | Costo: $487,528.12
+
+[2026-05-12 12:43:28] [INFO] Intento de confirmación finalizado para reserva 9E87103E | Estado actual: CONFIRMADA
+
+[2026-05-12 12:43:28] [ERROR] No se pudo confirmar reserva 9E87103E: [ERR_RESERVA] La reserva '9E87103E' ya se encuentra confirmada.
+
+[2026-05-12 12:43:28] [INFO] Intento de confirmación finalizado para reserva 9E87103E | Estado actual: CONFIRMADA
+
+[2026-05-12 12:43:28] [WARNING] Intento de cancelar reserva ya cancelada: 166F1910
+
+[2026-05-12 12:43:28] [INFO] Intento de cancelación finalizado para reserva 166F1910
+
+[2026-05-12 12:43:28] [ERROR] Error al crear reserva.
+
+[2026-05-12 12:43:28] [INFO] Reserva creada: A4B06A94 | Cliente: 1001 | Servicio: S01 | Duración: 1.0
+
+[2026-05-12 12:43:28] [INFO] Reserva registrada en gestor: A4B06A94
+
+[2026-05-12 12:43:28] [ERROR] No se pudo confirmar reserva A4B06A94: [ERR_SERVICIO] El servicio 'Sala Innovación' no está disponible en este momento.
+
+[2026-05-12 12:43:28] [INFO] Intento de confirmación finalizado para reserva A4B06A94 | Estado actual: PENDIENTE
+
+[2026-05-12 12:43:28] [INFO] Sistema Software FJ — Ejecución completada sin interrupciones.
+
